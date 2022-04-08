@@ -48,9 +48,6 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-.header__logo {
-	
-}
 .nav {
 	width: 700px;
 	display: flex;
@@ -67,6 +64,24 @@ body {
 .nav__link:hover {
 	opacity: 1;
 }
-.search {
-	
+input[type="search"] {
+	width: 300px;
+	height: 40px;
+	background: inherit;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+input[type="search"]::placeholder {
+	color: #fff;
+  }
+input[type="search"]:focus {
+	outline: 0;
+	background-color: #3c127f;
+}
+input[type="submit"] { 
+	display: none;
 }
