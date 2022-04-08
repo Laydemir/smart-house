@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #fff;
+
+}
+  
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	margin: 0;
+  }
+/* Page =================*/
+.page {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-image: linear-gradient(to bottom, #58127f, #cc0b84, #58127f);
+	overflow: hidden; /*для обрезки выступающих частей при адаптации*/
+}
+    /* Container =================*/
+.container {
+	width: 100%;
+	max-width: 1350px;
+	padding: 0 15px;
+	margin: 0 auto;
+  }
+  /* HEADER =================*/
+.header {
+  width: 100%;
+  
+}
+.header__inner {
+	margin: auto 0;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo {
+	
+}
+.nav {
+	width: 700px;
+	display: flex;
+	justify-content: space-around;
+}
+.nav__link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	opacity: .7;
+}
+.nav__link:hover {
+	opacity: 1;
+}
+.search {
+	
+}
