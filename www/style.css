@@ -287,10 +287,73 @@ input[type="submit"] {
 	font-size: 22px;
 	padding-bottom: 45px;
 }
-
-
-
-
+/* MONITOR =================*/
+.monitor__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.monitor__item {
+	padding: 0 20px;
+	width: 50%;
+}
+.monitor__title {
+	font-family: 'Audiowide', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+	line-height: 1.1;
+	letter-spacing: .1em;
+}
+ul li {
+	padding-bottom: 40px;
+	font-size: 24px;
+	line-height: 1.5;
+}
+.service {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .2em;
+}
+.service__numb {
+	padding-bottom: 60px;
+	font-size: 60px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .2em;
+}
+.monitor__fieldset {
+	border: none
+}
+.monitor__fieldset legend {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+input[type="text"] {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 210px;
+	height: 60px;
+	background: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid #fff;
+	
+}
+input[type="text"]:focus {
+	outline: 0;
+	background-color: #9313b3;
+}
+.monitor__img {
+	position: relative;
+	bottom: -30px;
+	left: 20px;
+}
 
 
 
