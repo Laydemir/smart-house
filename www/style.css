@@ -185,7 +185,6 @@ input[type="submit"] {
     align-items: center; /*Центрирование по вертикали */ 
 	
 }
-
 .function__title {
 	padding-bottom: 30px;
 	font-family: 'Montserrat', sans-serif;
@@ -201,9 +200,65 @@ input[type="submit"] {
 	line-height: 1.5;
 	color: #fff;
 }
-
-
-
+/* TYPE =================*/
+.type {
+	display: flex;
+	flex-direction: column;
+}
+.type__title {
+	margin: 0px auto 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.5;
+	letter-spacing: .1em;
+}
+.type__inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.type__item {
+	position: relative;
+	height: 750px;
+	max-width: 350px;
+	background: linear-gradient(to bottom, #661d9d, #6d199a, #a059b3);
+	border: 3px solid #df9ecd;
+	border-radius: 30px;
+}
+.type__icon {
+	height: 360px;
+	display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center; /*Центрирование по вертикали */ 
+}
+.type__item-title {
+	padding-bottom: 25px;
+	font-family: 'Audiowide', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 1.1;
+	letter-spacing: .1em;
+	text-align: center;
+}
+.type__item-text {
+	padding: 0 30px;
+	font-size: 16px;
+}
+.type__btn {
+	position: absolute;
+	left: 40px;
+    bottom: 35px;
+	background: none;
+}
+.type__text {
+	margin: 120px auto;
+	max-width: 1200 px;
+}
+.type__text p {
+	font-size: 28px;
+}
 
 
 
