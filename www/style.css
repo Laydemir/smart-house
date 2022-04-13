@@ -26,7 +26,7 @@ body {
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
-	background-image: linear-gradient(to bottom, #58127f, #cc0b84, #58127f);
+	background-image: linear-gradient(to bottom, #58127f, #cc0b84, #58127f, #a12fb1);
 	overflow: hidden; /*для обрезки выступающих частей при адаптации*/
 }
     /* Container =================*/
@@ -303,7 +303,7 @@ input[type="submit"] {
 	line-height: 1.1;
 	letter-spacing: .1em;
 }
-ul li {
+.monitor__list-text {
 	padding-bottom: 40px;
 	font-size: 24px;
 	line-height: 1.5;
@@ -355,15 +355,107 @@ input[type="text"]:focus {
 	left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
+/* ABOUT =================*/
+.about__inner {
+	display: flex;
+	margin-top: 70px;
+}
+.about__item {
+	padding: 70px 5px;
+	width: 50%;
+}
+.about__img {
+	width: 100%;
+	height: auto;
+}
+.about__title {
+	padding-bottom: 50px;
+	font-size: 44px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+.about__text {
+	font-size: 20px;
+	line-height: 1.5;
+	padding-bottom: 70px;
+}
+.about__list {
+	list-style: none;
+}
+.about__contact {
+	margin-bottom: 10px;
+}
+.fa-solid {
+	display: inline-block;
+	width: 40px;
+}
+/* DIGITAL =================*/
+.digital {
+	background: linear-gradient(to bottom, rgba(181, 85, 189, 0.7), rgba(184, 90, 180, 0.7), rgba(152, 19, 133, 0.7));
+	border-top: 3px solid #c3a0cc;
+	border-bottom: 3px solid #c3a0cc;
+}
+.digital__title {
+	margin: 70px auto;
+	font-size: 35px;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+.digital__inner {
+	margin-bottom: 100px;
+	display: flex;
+	
+	justify-content: space-evenly;
+}
+.digital__item {
+	width: 31%;
+	text-align: center;
+}
+.digital_img {
+	width: 100%;
+}
+/* FOOTER =================*/
+.footer__inner {
+	margin: 90px auto;
+	display: flex;
+	
+	justify-content: space-between;
+}
+.footer__item {
+	width: 15%;
+}
+.footer__item:first-child {
+	width: 50%;
+	padding: 0 70px;
+}
+.footer__item-title {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.footer__ul {
+	padding-left: 0;
+}
+.footer__list {
+	list-style: none;
+}
+.footer__link{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.7;
+}
+.footer__link:hover {
+	opacity: 1;
+}
+hr {
+	height: 80px;
+	background-color: #5d117f;
+	border: none;
+	margin-bottom: 50px;
+	
+}
 
 
 
